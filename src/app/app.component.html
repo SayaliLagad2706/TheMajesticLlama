@@ -1,0 +1,241 @@
+<body>
+  <div class="img-1">
+    <h1>The Majestic Llama</h1>
+  </div>
+  <section>
+    <div class="content">
+      <div *ngIf="info == 'About'">
+        <div class="row">
+          <div class="introCol col1">
+            <img class="introImg" src="assets/img/llama.jpg">
+          </div>
+          <div class="introCol col2">
+            The <span style="color: rgb(2, 54, 2);"><b>Llama</b></span> is a domesticated <span style="font-weight: bold; color: rgb(2, 54, 2);">South American</span> camelid, whidely used as a meat and pack animal by Andean cultures since the Pre-Columbian era.
+            Unlike camels, lamoids do not have the characteristic camel humps; they are slender-bodied animals and have long legs and necks, short tails, small heads, and large, pointed ears. Gregarious animals, they graze on grass and other plants.
+            Llamas are very social animals and live with others as a herd. Their wool is very soft and lanolin-free.
+            Llamas appear to have originated from the central plains of North America about <span style="font-weight: bold; color: rgb(2, 54, 2);">40 million years</span> ago. They migrated to South America about three million years ago during the Great American Interchange.
+          </div>
+        </div>
+      </div>
+      <div *ngIf="info == 'History'">
+          <div class="row">
+            <div class="histCol">
+              <h2 style="text-align: center; color: rgb(2, 54, 2); font-weight: bold;">Inca Empire</h2>
+              <p class="histText">Scholar Alex Chepstow-Lusty has argued that the switch from a hunter-gatherer lifestyle to widespread agriculture was only possible because of the use of llama dung as fertilizer.
+                In the Inca Empire, llamas were the only beasts of burden, and many of the people dominated by the Inca had long traditions of llama herding. For the Inca nobility, the llama was of symbolic significance, and llama figures were often buried with the dead.
+              </p>
+            </div>
+            <div class="histCol">
+              <h2 style="text-align: center; color: rgb(2, 54, 2); font-weight: bold;">Spanish Empire</h2>
+              <p class="histText">
+                One of the main uses for llamas at the time of the Spanish conquest was to bring down ore from the mines in the mountains.
+                According to Juan Ignacio Molina, the Dutch captain Joris van Spilbergen observed the use of hueques (possibly a llama type) by native Mapuches of Mocha Island as plow animals in 1614.
+                In Chile hueque populations declined towards extinction in the 16th and 17th century being replaced by European livestock.
+              </p>
+            </div>
+            <div class="histCol">
+              <h2 style="text-align: center; color: rgb(2, 54, 2); font-weight: bold;">United States</h2>
+              <p class="histText">
+                Llamas were first imported into the US in the late 1800s as zoo exibits.
+                In the 1970s, interest in llamas as livestock began to grow, and the number of llamas increased as farmers bred and produced an increasing number of animals.
+                With little market for llama fiber or meat in the US, and the value of guard llamas limited, the primary value in llamas was in breeding more animals, a classic sign of a speculative bubble in agriculture.
+                By 2017, the number of llamas in the US had dropped below 40,000.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="behavior" *ngIf="info == 'Behavior'">
+        <ul>
+          <li>Llamas that are well-socialized and trained to halter and lead after weaning are very friendly and pleasant to be around.</li>
+          <li>Llamas are very social herd animals, however, and do sometimes spit at each other as a way of disciplining lower-ranked llamas in the herd.</li>
+          <li>Their fights are visually dramatic, with spitting, ramming each other with their chests, neck wrestling and kicking, mainly to knock the other off balance.</li>
+          <li>
+            <span style="font-weight: 900; color: rgb(2, 54, 2)">Guard behavior</span>
+            <ul>
+              <li>
+                Using llamas as livestock guards in North America began in the early 1980s, and some sheep producers have used llamas successfully since then.
+              </li>
+              <li>
+                Research suggests the use of multiple guard llamas is not as effective as one. Multiple males tend to bond with one another, rather than with the livestock, and may ignore the flock. 
+              </li>
+              <li>
+                Using llamas as guards has reduced the losses to predators for many producers. The value of the livestock saved each year more than exceeds the purchase cost and annual maintenance of a llama.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="behavior" *ngIf="info == 'Char'">
+        <ul>
+          <li>
+            <span style="font-weight: 900; color:rgb(2, 54, 2)">Height:</span>" 1.7 to 1.8 m (5 ft 7 in to 5 ft 11 in)
+          </li>
+          <li>
+            <span style="font-weight: 900; color:rgb(2, 54, 2)">Weight:</span> 130 and 200 kg (290 and 440 lb)
+          </li>
+          <li>
+            The ears are rather long and slightly curved inward, characteristically known as "banana" shaped. 
+          </li>
+          <li>
+            <span style="font-weight: 900; color:rgb(2, 54, 2)">Species:</span>
+            <ol>
+              <li>
+                The llama, Lama glama (Linnaeus)
+              </li>
+              <li>
+                The <span style="font-weight: bold; cursor: pointer;" title="The alpaca (Vicugna pacos) is a species of South American camelid descended from the vicuña. It is similar to, and often confused with, the llama. However, alpacas are often noticeably smaller than llamas. ">alpaca,</span> Vicugna pacos (Linnaeus)
+              </li>
+              <li>
+                The <span style="font-weight: bold; cursor: pointer;" title="The guanaco (Lama guanicoe) is a camelid native to South America, closely related to the llama. Its name comes from the Quechua word huanaco. Young guanacos are called chulengos.">guanaco</span> (from the Quechua huanaco), Lama guanicoe (Müller)
+              </li>
+              <li>
+                The <span style="font-weight: bold; cursor: pointer;" title="The vicuña (Vicugna vicugna) or vicuna is one of the two wild South American camelids which live in the high alpine areas of the Andes, the other being the guanaco. It is a relative of the llama, and is now believed to be the wild ancestor of domesticated alpacas, which are raised for their coats">vicuña</span>, Vicugna vicugna (Molina)
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+        <button class="buttons" (click)="showAboutInfo($event)">About</button>
+        <button class="buttons" (click)="showHistoryInfo($event)">History</button>
+        <button class="buttons" (click)="showBehaviorInfo($event)">Behavior</button>
+        <button class="buttons" (click)="showCharInfo($event)">Characteristics</button>
+    </div>
+  </section>
+  <div class="img-2">
+    <h1>Fun Facts</h1>
+  </div>
+  
+  <section class="static">
+    <canvas id="canvas"></canvas>
+    <div class="fact1">Llamas are smart. They can distinguish between the neighbor’s dog and a predatory coyote.</div>
+    <div class="fact2">Llamas have scent glands on the lower, outside of the rear legs and between the toes.</div>
+    <div class="fact3">Llamas make excellent guards for herds of small animals. They are very social and will ‘adopt’ a group of sheep or goats as their own herd.</div>
+    <div class="fact4">A llama's stomach has three compartments. They are called the rumen, omasum, and abomasum.</div>
+    <div class="fact5">Llamas don't bite. They spit when they're agitated, but that's mostly at each other.</div>
+    <div class="fact6">Llamas know their own limits. If you try to overload a llama with too much weight, the llama is likely to lie down or simply refuse to move.</div>
+    <div class="fact7">Llamas are hardy and well suited to harsh environments. They are quite sure-footed, easily navigating rocky terrain at high altitudes.</div>
+    <div class="fact8">Llama poop has almost no odor. Llama farmers refer to llama manure as "llama beans." It makes for a great, eco-friendly fertilizer. </div>
+  </section>
+  
+  <div class="img-3">
+    <h1>Uses</h1>
+  </div>
+  <section class="uses">
+    <div class="flip-card column">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="usesImg" src="assets/img/llamause1.jpg" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Trekking</h3>
+          Llama hiking, also known as llama trekking or llama caravanning, is an activity where llamas accompany people on walking expeditions, including eco-tourism.
+          Llamas have padded feet similar to a dog, which lets them easily traverse steep and rocky paths while being more environmentally friendly to the ground than horse hooves.
+          Llamas' excellent endurance combined with biddable and peaceful natures makes them suitable pack animals for hill walking, including for people not used to dealing with more stubborn animals such as mules.
+        </div>
+      </div>
+    </div>
+  
+    <div class="flip-card column">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="usesImg" src="assets/img/llamause2.jpg" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Wool/ Fibre</h3>
+          Their fiber is classified as an exotic fiber. It has a very high insulating properties and is a hair rather than a wool. It is free of lanolin and is reportedly non-allergenic. It does not have the elasticity found in sheep wool and frequently a spinner will blend wool with llama or alpaca fiber to give the yarn memory. The quality and color of fleece varies widely. Alpaca fiber is much more consistent than llama fiber. Some of our llamas have very fine fiber, others have fiber suitable only for stuffing a comforter or donating to the birds in our area for building nests.
+        </div>
+      </div>
+    </div>
+  
+    <div class="flip-card column">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="usesImg" src="assets/img/llamause3.jpg" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Guarding livestock</h3>
+          Llamas are better suited to guarding livestock than any other guard animal. They may initially be more expensive than guard dogs but end up costing less over their working lifetimes. They are used to guard alpacas, sheep, goats, cattle and poultry. Generally, gelded males which have never been used for breeding are used for guarding.
+        </div>
+      </div>
+    </div>
+  
+    <div class="flip-card column">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="usesImg" src="assets/img/llamause4.jpg" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Pets/ Companions</h3>
+          Llamas also make good companion animals. Their quiet disposition is calming to the soul. Their antics at dusk, pronging across your pasture, will leave you laughing. Whenever we need a little more tranquility in our lives we will go out and sit quietly with our llamas.
+        </div>
+      </div>
+    </div>
+  
+    <div class="flip-card column">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="usesImg" src="assets/img/llamause5.jpg" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Minecraft</h3>
+          Llamas have become one of Minecraft's most beloved animals and spawn as one of the game's many neutral mobs. The real benefit to these spitting beauties though is the fact they can hold chests, up to 15 slots of space -- naturally anyone wants to learn how to tame llamas in Minecraft.
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="img-4">
+    <h1>Llama Power</h1>
+  </div>
+  
+  <section class="hp">
+    <div>
+      <h3>FOUR LEGS, THREE CALCULATIONS, TWO ANIMALS, ONE CONCLUSION.</h3>
+      <ul>
+        <li><span style="font-weight: bold;">What a horse can do:</span>
+          <ul>
+            <li>
+              To work out what the horses were capable of, he needed to know how much weight they carried, the distance they traveled, and how long it took to do it. 
+            </li>
+            <li>
+              The mill exerted 180 pounds-force on the horse. The radius of the mill was 12 feet, giving a circumference of 182 feet. The horse turned the mill 144 times in an hour (that the same as 2.4 times per minute).
+            </li>
+            <li>
+              It was rounded up to a clean 33,000, and that is the figure used today for defining 1 Horsepower. 
+            </li>
+          </ul>
+        </li>
+        <li><span style="font-weight: bold;">What Llamas can do:</span>
+          <ul>
+            <li>
+              The average weight of a Pack Llama is 400 pounds, and its been documented that they can effectively carry 18-20% of their body weight, which is 80 pounds. 
+            </li>
+            <li>
+              On a trek, they travel at 3 mph. They can travel 15 miles (79200 feet) per day, and at 3mph, thats a total of 5 hours (300 mins). So how does that look in the equation.
+            </li>
+            <li>
+              The Llama can perform at 64% of what a horse can do.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span style="font-weight: bold;">LT - LlamaThrust: </span>
+          LT = HP x 0.64 ... and ... HP = LT x 1.56
+          For example, a randomly chosen Jetta makes an astonishing 1485 Horsepower...
+            1485 x 0.64 = 952 Llamathrust
+        </li>
+        <li>
+          <span style="font-weight: bold;">Llamas can thus be a future alternative to Horsepower.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <div class="designButton"><button style="border:none; cursor: pointer; background-color: #9CC7F1; padding: 10px;" (click)="showModal($event)">Designed and Created By</button></div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <p>Sayali Ashok Lagad</p>
+      <p>email: slagad@usc.edu</p>
+    </div>
+  </div>
+  </body>
